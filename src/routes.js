@@ -1,10 +1,10 @@
 import React from 'react'
 import {BrowserRouter,Route} from 'react-router-dom'
 import Landing from './pages/landing'
-import About from './pages/about'
-import PlanetTerror from './pages/planetTerror'
-import DeathProof from './pages/deathProof'
-import FakeTrailers from './pages/fakeTrailers'
+import About from './pages/about.js'
+import PlanetTerror from './pages/planetTerror.js'
+import DeathProof from './pages/deathProof.js'
+import FakeTrailers from './pages/fakeTrailers.js'
 
 function Routes(){
   return(
