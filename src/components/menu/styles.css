@@ -1,0 +1,11 @@
+.menu {
+  background-color: black;
+  display: block;
+
+}
+
+.menu-item{
+  margin: 2%;
+  color: red;
+  font-size: 15px;
+}
