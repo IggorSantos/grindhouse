@@ -1,5 +1,10 @@
+#page{
+  background: rgb(78,85,78);
+  background: linear-gradient(90deg, rgba(78,85,78,1) 0%, rgba(22,22,17,1) 100%, rgba(78,255,0,1) 100%, rgba(45,41,41,1) 100%);
+}
 .container{
   margin-left: ;
+
 }
 .containerPoster{
   text-align: center;

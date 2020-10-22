@@ -1,6 +1,6 @@
 .menu {
   background-color: black;
-  display: block;
+  display: flex;
   padding: 20px;
 
 }
