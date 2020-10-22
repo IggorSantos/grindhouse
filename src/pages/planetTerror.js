@@ -5,7 +5,7 @@ import './styles.css'
 
 export default () => {
   return (
-    <div>
+    <div id="page">
     <Menu />
     <h2>Planeta Terror</h2>
     <div className="container">
@@ -13,12 +13,9 @@ export default () => {
     El Wray, Cherry, um médico e o xerife unem forças para sobreviver à noite, quando os mutantes ameaçam tomar
     a cidade e o mundo.
     </div>
-    <div className="containerPoster">
-     <img src={PosterPlanetTerror} alt="Poster Grindhouse" className="imgPoster" />
+    <div className="imgPoster">
+     <img src={PosterPlanetTerror} alt="Poster Grindhouse" />
     </div>
-    <div className="container">
-    Esse filme tem a direção de Robert Rodriguez 
-     </div>
-    </div>
+  </div>
   )
 }

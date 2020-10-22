@@ -5,7 +5,7 @@ import './styles.css'
 
 export default () => {
   return (
-    <div>
+    <div id="page">
     <Menu />
     <h2>A Prova de Morte</h2>
     <div className="container">
@@ -15,12 +15,9 @@ export default () => {
     Enquanto provoca acidentes e as vítimas se acumulam, ele se safa sem praticamente nenhum arranhão.
     Mas ele não esperava pelo grupo de mulheres duronas que inclui Zoe Bell, dublê na vida real.
     </div>
-    <div className="containerPoster">
-     <img src={PosterDeathProof} alt="Poster A prova de Morte" className="imgPoster" />
+    <div className="imgPoster">
+     <img src={PosterDeathProof} alt="Poster A prova de Morte"/>
     </div>
-    <div className="container">
-    Esse filme tem a direção de Quentin Tarantino
-     </div>
-    </div>
+  </div>
   )
 }

@@ -4,19 +4,19 @@ import './styles.css'
 
 export default () => {
   return (
-    <div>
+    <div id="page">
      <Menu />
      <h2>Trailers Falsos</h2>
      <div className="container">
       Para simular a experiencia de uma grindhouse,foram criados trailers falsos exclusivamente
       para o filme
      </div>
-     <div className="containerPoster">
+     <div className="imgPoster">
       <iframe width="750" height="500" src="https://www.youtube.com/embed/51nzkz-H9Hk"
       frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen></iframe>
      </div>
-    <div className="container">
+    <div className="container-fake">
     São eles:
     <ul>
      <li>
