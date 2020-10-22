@@ -1,5 +1,5 @@
 import React from 'react'
-import Bg from '../../assets/images/bg.jpg'
+import Bg from '../../assets/images/Grindhouse_banner.jpg'
 import Menu from '../../components/menu/index'
 import './styles.css'
 

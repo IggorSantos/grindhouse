@@ -5,6 +5,10 @@
 
 }
 
+.menu img{
+  margin: 2%;
+}
+
 .menu-item{
   margin: 2%;
   color: red;
