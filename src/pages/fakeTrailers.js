@@ -12,7 +12,7 @@ export default () => {
       para o filme
      </div>
      <div className="imgPoster">
-      <iframe width="750" height="500" src="https://www.youtube.com/embed/51nzkz-H9Hk"
+      <iframe title="Fake Trailers" width="750" height="500" src="https://www.youtube.com/embed/51nzkz-H9Hk"
       frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen></iframe>
      </div>
