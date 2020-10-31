@@ -13,6 +13,11 @@
   height: 400px;
 }
 
+#page {
+  min-height: 100%;
+  position: relative;
+}
+
 #page h2{
   text-align: center;
 }

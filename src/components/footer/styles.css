@@ -1,0 +1,11 @@
+#rodape{
+  background-color: black;
+  margin-top:50px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+#rodape h2{
+  color: red;
+}
