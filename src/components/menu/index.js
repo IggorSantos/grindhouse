@@ -10,9 +10,11 @@ export default () => {
       <Link to={'/'}>
         <img src={LogoGrindhouse} alt="Logo GrindHouse" />
       </Link>
-      <Link to={'/planetTerror'} className="menu-item">PLANETA TERROR</Link> |
-      <Link to={'/deathProof'} className="menu-item">A PROVA DE MORTE</Link> |
-      <Link to={'/fakeTrailers'} className="menu-item">TRAILERS FALSOS</Link>
+      <div id="container-item">
+        <Link to={'/planetTerror'} className="menu-item">PLANETA TERROR</Link> |
+        <Link to={'/deathProof'} className="menu-item">A PROVA DE MORTE</Link> |
+        <Link to={'/fakeTrailers'} className="menu-item">TRAILERS FALSOS</Link>
+      </div>
       <div className="menu-item">
         <FiFacebook size={26} color="red" />
         <FiTwitter size={26} color="red" />

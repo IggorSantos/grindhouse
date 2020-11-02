@@ -9,8 +9,24 @@
   margin: 2%;
 }
 
+#container-item{
+  margin: 2%;
+}
+
 .menu-item{
   margin: 2%;
   color: red;
   font-size: 15px;
+}
+
+@media screen and (max-width:600px){
+  #container-item{
+    position: fixed;
+    left: 0;
+    bottom:0;
+    background-color: black;
+    right: 0;
+  }
+
+
 }
