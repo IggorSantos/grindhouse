@@ -2,6 +2,7 @@
   background-color: black;
   display: flex;
   padding: 5px;
+  position: relative;
 
 }
 
@@ -11,13 +12,15 @@
 
 #container-item{
   margin: 2%;
-}
+  width: 600px;
+  }
 
 .menu-item{
   margin: 2%;
   color: red;
   font-size: 15px;
 }
+
 
 @media screen and (max-width:600px){
   #container-item{

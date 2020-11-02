@@ -1,7 +1,6 @@
 import React from 'react'
 import Menu from '../components/menu'
 import PageHeader from '../components/pageHeader'
-import Footer from '../components/footer'
 import './styles.css'
 
 export default () => {
@@ -14,7 +13,6 @@ export default () => {
       frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen></iframe>
      </div>
-     <Footer />
     </div>
   )
 }

@@ -2,7 +2,6 @@ import React from 'react'
 import Menu from '../components/menu'
 import BgDeathProof from '../assets/images/death.jpg'
 import PageHeader from '../components/pageHeader'
-import Footer from '../components/footer'
 import './styles.css'
 
 export default () => {
@@ -12,7 +11,6 @@ export default () => {
     <PageHeader name="A Prova de Morte" small="de Quentin Tarantino" />
     <div className="imgPoster">
      <img src={BgDeathProof} alt="Poster A prova de Morte"/>
-     <Footer />
     </div>
   </div>
   )
