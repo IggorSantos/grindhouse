@@ -13,6 +13,10 @@ export default () => {
       frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen></iframe>
      </div>
+     <div className="container-texto">
+      <p>Para completar a homenagem foram criados trailers falsos que passaram no intervalo de exibição
+      de um filme para o outro. Esses trailers também traziam referencias de filmes daquela epoca</p>
+     </div>
     </div>
   )
 }

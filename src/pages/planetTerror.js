@@ -12,6 +12,12 @@ export default () => {
     <div className="imgPoster">
      <img src={BgPlanetTerror} alt="Poster Grindhouse" />
     </div>
+    <div className="container-texto">
+     <p>Uma experiência fracassada libera vírus que transforma humanos em zumbis
+     sedentos de sangue e carnívoros. El Wray, Cherry, um médico e o xerife unem
+     forças para sobreviver à noite, quando os mutantes ameaçam tomar a cidade e
+     o mundo.</p>
+    </div>
   </div>
   )
 }

@@ -27,6 +27,14 @@
   padding-left: 10px;
 }
 
+.container-texto{
+  padding: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-style: solid;
+  border-color: red;
+}
+
 @media screen and (max-width:600px){
   .imgPoster img{
     width: 300px;
