@@ -4,11 +4,13 @@ import Landing from './pages/landing'
 import PlanetTerror from './pages/planetTerror.js'
 import DeathProof from './pages/deathProof.js'
 import FakeTrailers from './pages/fakeTrailers.js'
+import About from './pages/about.js'
 
 function Routes(){
   return(
     <BrowserRouter>
       <Route path="/" exact component={Landing} />
+      <Route path="/about" component={About} />
       <Route path="/planetTerror" component={PlanetTerror} />
       <Route path="/deathProof" component={DeathProof} />
       <Route path="/fakeTrailers" component={FakeTrailers} />
