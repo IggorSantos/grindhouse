@@ -22,16 +22,17 @@
 }
 
 
-@media screen and (max-width:600px){
+@media screen and (max-width:800px){
   #container-item{
     position: fixed;
     left: 0;
     bottom:0;
     background-color: black;
     right: 0;
+
   }
   .menu-item{
-    font-size: 10px;
+    font-size: 5px;
   }
 
 
