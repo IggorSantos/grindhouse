@@ -6,7 +6,7 @@ import {FiFacebook,FiTwitter,FiInstagram} from 'react-icons/fi'
 
 export default () => {
   return(
-    <nav className="menu">
+   <nav className="menu">
       <Link to={'/'}>
         <img src={LogoGrindhouse} alt="Logo GrindHouse" />
       </Link>
@@ -21,8 +21,7 @@ export default () => {
         <FiTwitter size={26} color="red" />
         <FiInstagram size={26} color="red" />
       </div>
-
-    </nav>
+     </nav>
 
 
   )

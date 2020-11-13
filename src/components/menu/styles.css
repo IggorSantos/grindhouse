@@ -1,9 +1,9 @@
+
 .menu {
   background-color: black;
   display: flex;
   padding: 5px;
   position: relative;
-
 }
 
 .menu img{
@@ -22,7 +22,7 @@
 }
 
 
-@media screen and (max-width:800px){
+@media screen and (max-width:600px){
   #container-item{
     position: fixed;
     left: 0;
@@ -34,6 +34,10 @@
   .menu-item{
     font-size: 5px;
   }
+}
 
-
+@media screen and (max-width:320px){
+  .menu img{
+     width: 90%;
+  }
 }
