@@ -16,7 +16,7 @@ export default () => {
         <Link to={'/deathProof'} className="menu-item">A PROVA DE MORTE</Link> |
         <Link to={'/fakeTrailers'} className="menu-item">TRAILERS FALSOS</Link>
       </div>
-      <div className="menu-item">
+      <div className="menu-icon">
         <FiFacebook size={26} color="red" />
         <FiTwitter size={26} color="red" />
         <FiInstagram size={26} color="red" />

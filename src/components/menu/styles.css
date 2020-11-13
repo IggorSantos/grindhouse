@@ -21,9 +21,18 @@
   font-size: 15px;
 }
 
-@media screen and (max-width:768px){
+.menu-icon{
+  margin: 2%;
+  color: red;
+  font-size: 15px;
+}
+
+@media screen and (max-width:768px) and (min-width:600px){
   .menu-item{
     font-size: 12px;
+  }
+  .menu-icon{
+    display: none;
   }
 }
 
