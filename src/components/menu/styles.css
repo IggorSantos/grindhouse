@@ -21,6 +21,11 @@
   font-size: 15px;
 }
 
+.menu-item:hover{
+  background: rgba(255,255,255, 0.15);
+  text-decoration: none;
+}
+
 .menu-icon{
   margin: 2%;
   color: red;

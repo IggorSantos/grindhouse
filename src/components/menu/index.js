@@ -11,9 +11,9 @@ export default () => {
         <img src={LogoGrindhouse} alt="Logo GrindHouse" />
       </Link>
       <div id="container-item">
-        <Link to={'/about'} className="menu-item">SOBRE O PROJETO</Link> |
-        <Link to={'/planetTerror'} className="menu-item">PLANETA TERROR</Link> |
-        <Link to={'/deathProof'} className="menu-item">A PROVA DE MORTE</Link> |
+        <Link to={'/about'} className="menu-item">SOBRE O PROJETO</Link>
+        <Link to={'/planetTerror'} className="menu-item">PLANETA TERROR</Link>
+        <Link to={'/deathProof'} className="menu-item">A PROVA DE MORTE</Link> 
         <Link to={'/fakeTrailers'} className="menu-item">TRAILERS FALSOS</Link>
       </div>
       <div className="menu-icon">
