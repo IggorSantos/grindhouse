@@ -42,7 +42,7 @@
 }
 
 @media screen and (max-width:600px){
-  #container-item{
+  /*#container-item{
     position: fixed;
     left: 0;
     bottom:0;
@@ -51,11 +51,38 @@
 }
   .menu-item{
     font-size: 5px;
+  }*/
+  .Links{
+    display: none;
   }
+
+  .menu-icon{
+    display: none;
+  }
+
+  .one,
+  .two,
+  .three{
+    background-color: #fff;
+    height: 5px;
+    width: 100%;
+    margin: 6px auto;
+  }
+
+  .menu-toggle{
+    width: 40px;
+    height: 30px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+
 }
 
-@media screen and (max-width:320px){
+@media screen and (max-width:375px){
   .menu img{
-     width: 90%;
+     width: 200px;
+     margin-top: 10px;
   }
 }
