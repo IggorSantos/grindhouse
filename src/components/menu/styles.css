@@ -49,6 +49,11 @@
     background-color: black;
     right: 0;
 }
+
+  .links{
+    margin-left: 50px;
+
+}
   .menu-item{
     font-size: 5px;
   }
@@ -58,5 +63,8 @@
   .menu img{
      width: 200px;
      margin-top: 10px;
+  }
+  .links{
+    margin-left: 10px;
   }
 }
