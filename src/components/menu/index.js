@@ -11,12 +11,7 @@ export default () => {
         <img src={LogoGrindhouse} alt="Logo GrindHouse" />
       </Link>
       <div id="container-item">
-        <div className="menu-toggle">
-         <div className="one"></div>
-         <div className="two"></div>
-         <div className="three"></div>
-        </div>
-        <div className="Links">
+        <div className="links">
           <Link to={'/about'} className="menu-item">SOBRE O PROJETO</Link>
           <Link to={'/planetTerror'} className="menu-item">PLANETA TERROR</Link>
           <Link to={'/deathProof'} className="menu-item">A PROVA DE MORTE</Link>
