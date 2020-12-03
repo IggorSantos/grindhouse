@@ -59,12 +59,18 @@
   }
 }
 
+@media screen and (max-width:425px) and (min-width:375px){
+  .links{
+    margin-left: 100px;
+  }
+}
+
 @media screen and (max-width:375px){
   .menu img{
      width: 200px;
      margin-top: 10px;
   }
   .links{
-    margin-left: 10px;
+    margin-left: 50px;
   }
 }
