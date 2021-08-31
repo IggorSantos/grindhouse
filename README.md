@@ -1,6 +1,8 @@
 <img src="/src/assets/logos/logo_grindhouse.png">
 Aplicação feita em homenagem ao projeto GrindHouse formado pelos filmes À Prova de Morte e Planeta Terror
 
+<img src="/src/assets/screens/grindhouse.png">
+
 ## Objetivo
 Aplicação feita para treinar conceitos básicos em React
 
