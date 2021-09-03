@@ -12,11 +12,15 @@ Aplicação feita para treinar conceitos básicos em React
 - ReactJS
 
 ## Instalação
-- Primeiro clone o repositório :
+- Primeiro clone o repositório : </br>
 `$ git clone https://github.com/IggorSantos/grindhouse.git`
-- Depois entre na pasta do projeto : `$ cd grindhouse`
-- Instale as dependencias: `$ yarn install`
-- Rodar projeto: `$ yarn start`
-- Acesse através do endereço: `http://localhost:3000`
+- Depois entre na pasta do projeto : </br>
+`$ cd grindhouse`
+- Instale as dependencias: </br>
+`$ yarn install`
+- Rodar projeto: </br>
+`$ yarn start`
+- Acesse através do endereço: </br>
+`http://localhost:3000`
 
 
