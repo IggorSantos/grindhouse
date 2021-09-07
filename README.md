@@ -1,3 +1,4 @@
+<img src="https://img.shields.io/badge/author-Igor%20Santos-red">
 <img src="/src/assets/logos/logo_grindhouse.png">
 Aplicação feita em homenagem ao projeto GrindHouse formado pelos filmes À Prova de Morte e Planeta Terror
 
