@@ -3,7 +3,7 @@ import Bg from '../../assets/images/Grindhouse_banner.jpg'
 import Menu from '../../components/menu/index'
 import './styles.css'
 
-export default () => {
+const Landing = () => {
   return(
     <div id="page-landing">
     <Menu />
@@ -11,3 +11,5 @@ export default () => {
     </div>
   )
 }
+
+export default Landing;

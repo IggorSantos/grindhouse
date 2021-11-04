@@ -5,7 +5,7 @@ import PlanetTerror from './pages/planetTerror.js'
 import DeathProof from './pages/deathProof.js'
 import About from './pages/about.js'
 
-function Routes(){
+const Routes = () => {
   return(
     <BrowserRouter>
       <Route path="/" exact component={Landing} />

@@ -5,7 +5,7 @@ import PageHeader from '../components/pageHeader'
 import Footer from '../components/footer'
 import './styles.css'
 
-export default () => {
+const About = () => {
   return (
     <div id="page">
       <Menu />
@@ -23,3 +23,5 @@ export default () => {
   </div>
   )
 }
+
+export default About;

@@ -4,7 +4,7 @@ import BgPlanetTerror from '../assets/images/terror-wallpaper.jpg'
 import PageHeader from '../components/pageHeader'
 import './styles.css'
 
-export default () => {
+const PlanetTerror = () => {
   return (
     <div id="page">
     <Menu />
@@ -21,3 +21,5 @@ export default () => {
   </div>
   )
 }
+
+export default PlanetTerror;

@@ -4,7 +4,7 @@ import BgDeathProof from '../assets/images/death.jpg'
 import PageHeader from '../components/pageHeader'
 import './styles.css'
 
-export default () => {
+const DeathProof = () => {
   return (
     <div id="page">
     <Menu />
@@ -23,3 +23,5 @@ export default () => {
   </div>
   )
 }
+
+export default DeathProof;
