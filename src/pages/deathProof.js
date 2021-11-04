@@ -2,7 +2,7 @@ import React from 'react'
 import Menu from '../components/menu'
 import BgDeathProof from '../assets/images/death.jpg'
 import PageHeader from '../components/pageHeader'
-import './styles.css'
+import styled from 'styled-components'
 
 const DeathProof = () => {
   return (
@@ -25,3 +25,13 @@ const DeathProof = () => {
 }
 
 export default DeathProof;
+
+const DeathContent = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  `
+const ImgPoster = styled.img`
+  width:600px;
+  height: 400px;
+`
