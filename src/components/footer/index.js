@@ -1,10 +1,24 @@
 import React from 'react'
-import './styles.css'
+import styled from 'styled-components'
 
-export default() => {
+const Footer = () => {
   return(
-    <footer id="rodape">
-      <h2>Desenvolvido por Igor Santos</h2>
-    </footer>
+    <ContainerFooter>
+      <ContentFooter>Desenvolvido por Igor Santos</ContentFooter>
+    </ContainerFooter>
   )
 }
+
+export default Footer;
+
+const ContainerFooter = styled.footer`
+  background-color: black;
+  margin-top: 5%;
+  position: fixed;
+  width: 100%
+`
+
+const ContentFooter = styled.p`
+  color: red;
+  text-align: center;
+`

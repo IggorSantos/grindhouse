@@ -3,6 +3,7 @@ import Menu from '../components/menu'
 import BgDeathProof from '../assets/images/death.jpg'
 import PageHeader from '../components/pageHeader'
 import ContentText from '../components/content-text'
+import Footer from '../components/footer'
 import styled from 'styled-components'
 
 const DeathProof = () => {
@@ -20,6 +21,7 @@ const DeathProof = () => {
             mulheres duronas que inclui Zoe Bell, dublê na vida real.
         </ContentText>
       </DeathContent>
+      <Footer />
   </div>
   )
 }

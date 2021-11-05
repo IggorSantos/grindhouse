@@ -3,6 +3,7 @@ import Menu from '../components/menu'
 import BgPlanetTerror from '../assets/images/terror-wallpaper.jpg'
 import PageHeader from '../components/pageHeader'
 import ContentText from '../components/content-text'
+import Footer from '../components/footer'
 import styled from 'styled-components'
 
 
@@ -20,6 +21,7 @@ const PlanetTerror = () => {
             o mundo.
          </ContentText>
       </PlanetContent>
+      <Footer />
   </div>
   )
 }
